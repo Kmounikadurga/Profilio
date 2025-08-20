@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Information Portfolio</h1>
+    </header>
+    
+    <section id="student-info">
+        <h2>Student Details</h2>
+        <p>Name: <span id="student-name">Mounika</span></p>
+        <p>Skills: <span id="skills">Web Development, Arduino, Robotics</span></p>
+        <p>Projects: <span id="projects">Motion Sensor LED, PHP Forms, Game Development</span></p>
+    </section>
+
+    <section id="dynamic-data">
+        <h2>Update Your Information</h2>
+        <input type="text" id="new-name" placeholder="Enter new name">
+        <button onclick="updateInfo()">Update</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
